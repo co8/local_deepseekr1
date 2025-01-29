@@ -1,9 +1,13 @@
 from ollama import chat
 import sys
 
+#text input
+prompt = input("Enter prompt (press enter for 'surprise me'): ") or "surprise me"
+print(f"Prompt: {prompt}")
+
 stream = chat(
     model='deepseek-r1:7b',
-    messages=[{'role': 'user', 'content': "what is cheese?"}],
+    messages=[{'role': 'user', 'content': prompt}],
     stream=True,
 )
 
