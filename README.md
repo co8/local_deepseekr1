@@ -3,7 +3,7 @@ Running Deepseek R1 Local on Ollama
 
 1. ollama.com
 2. Download on your OS and install
-3. run Ollama pull deepseek-r1:7b
+3. run Ollama pull deepseek-r1:7b (optional)
 4. run Ollama run deepseek-r1:7b
 5. say hello
 6. use my Python code to do more

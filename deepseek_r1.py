@@ -2,7 +2,7 @@ from ollama import chat
 import sys
 
 stream = chat(
-    model='deepseek-r1:14b',
+    model='deepseek-r1:7b',
     messages=[{'role': 'user', 'content': "You Question"}],
     stream=True,
 )
