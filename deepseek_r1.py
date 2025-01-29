@@ -3,7 +3,7 @@ import sys
 
 stream = chat(
     model='deepseek-r1:7b',
-    messages=[{'role': 'user', 'content': "You Question"}],
+    messages=[{'role': 'user', 'content': "what is cheese?"}],
     stream=True,
 )
 
