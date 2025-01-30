@@ -1,4 +1,5 @@
 # local_deepseekr1
+
 Running Deepseek R1 Local on Ollama
 
 1. ollama.com
@@ -9,3 +10,5 @@ Running Deepseek R1 Local on Ollama
 6. use my Python code to do more
 7. pip install ollama
 8. run python deepseek_r1.py
+
+# Chatbot and ollama server
