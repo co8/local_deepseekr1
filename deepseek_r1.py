@@ -6,7 +6,7 @@ prompt = input("Enter prompt (press enter for 'surprise me'): ") or "surprise me
 print(f"Prompt: {prompt}")
 
 stream = chat(
-    model='deepseek-r1:1.5b',
+    model='deepseek-r1:8b',
     messages=[{'role': 'user', 'content': prompt}],
     stream=True,
 )
